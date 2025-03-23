@@ -91,12 +91,6 @@ python
 Copy
 ec2_resource = boto3.resource('ec2', region_name='us-east-1')
 
-### License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Copy
-
----
 
 ### **Push to GitHub**
 Now, let’s push everything to your newly created GitHub repository.
