@@ -76,21 +76,22 @@ This repository contains Python scripts to automate AWS tasks using Boto3. It co
    ```bash
    git clone https://github.com/your-username/aws-automation-python.git
    cd aws-automation-python
-##Troubleshooting
-##AccessDenied Error
+### Troubleshooting
+### AccessDenied Error
 If you encounter an AccessDenied error, ensure your IAM user has the necessary permissions. For example:
 
 For S3: Attach the AmazonS3ReadOnlyAccess policy.
 
 For EC2: Attach the AmazonEC2FullAccess policy.
 
-##NoRegionError
+### NoRegionError
 If you encounter a NoRegionError, specify the region in your script or AWS CLI configuration:
 
 python
 Copy
 ec2_resource = boto3.resource('ec2', region_name='us-east-1')
-##License
+
+### License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 Copy
